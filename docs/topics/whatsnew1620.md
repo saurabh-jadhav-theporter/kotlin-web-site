@@ -8,25 +8,6 @@ You can also find a short overview of the changes in this video:
 
 <video href="8F19ds109-o" title="What's new in Kotlin 1.6.20"/>
 
-<section-starting-page>
-    <main-group>
-            <title>First steps</title>
-            <a href="basic-syntax.md" description="A quick tour of Kotlin syntax: keywords, operators, program structure">Basic syntax</a>
-            <a href="https://play.kotlinlang.org/byExample/overview" description="Simple annotated examples for the Kotlin syntax">Kotlin by example</a>
-            <a href="koans.md" description="Programming exercises to get you familiar with Kotlin">Koans</a>
-            <a href="command-line.md" description="Download and install the Kotlin compiler" type="install">Command-line compiler</a>
-        </main-group>
-        <highlighted-group>
-            <title>Featured topics</title>
-            <a href="https://kotlinlang.org/api/latest/jvm/stdlib/" description="Living essentials for everyday work with Kotlin: IO, files, threading, collections, and much more">Standard library API reference</a>
-            <a href="coding-conventions.md" description="Recommendations on the code organization, formatting, and naming">Coding conventions</a>
-            <a href="basic-types.md" description="Kotlin type system: numbers, strings, arrays, and other built-in types">Basic types</a>
-            <a href="control-flow.md" description="Conditions and loops: if, when, for, while">Control flow</a>
-            <a href="null-safety.md" description="Nullable and non-null types, elvis operator, safe calls and casts ">Null safety</a>
-            <a href="coroutines-overview.md" description="Concurrency: coroutines, flows, channels">Coroutines</a>
-        </highlighted-group>
-</section-starting-page>
-
 ## Language
 
 In Kotlin 1.6.20, you can try two new language features:

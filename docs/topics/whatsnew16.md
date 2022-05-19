@@ -1,10 +1,26 @@
 [//]: # (title: What's new in Kotlin 1.6.0)
 
-_[Release date: 16 November 2021](releases.md#release-details)_
-
-Kotlin 1.6.0 introduces new language features, optimizations and improvements to existing features, and a lot of improvements to the Kotlin standard library.
-
-You can also find an overview of the changes in the [release blog post](https://blog.jetbrains.com/kotlin/2021/11/kotlin-1-6-0-is-released/).
+<section-starting-page>
+<description>
+            Kotlin 1.6.0 introduces new language features, optimizations and improvements to existing features, and a lot of improvements to the Kotlin standard library.
+        </description>
+        <tip-group>
+            <a href="https://blog.jetbrains.com/kotlin/2021/11/kotlin-1-6-0-is-released/" description="You can find an overview of the changes in the release blog post" type="start">Kotlin blog</a>
+            <a href="releases.md#release-details" description="Released on November, 16 2021. See the table with details of the latest Kotlin releases" type="install">Release details</a>
+        </tip-group>
+        <highlighted-group>
+            <title>Jump to release highlights</title>
+            <a href="whatsnew16.md#stable-suspending-functions-as-supertypes" description="Useful when designing APIs that use Kotlin coroutines and accept suspending functional types">Suspending functions as supertypes</a>
+            <a href="whatsnew16.md#stable-exhaustive-when-statements-for-enum-sealed-and-boolean-subjects)" description="Make your code safer by covering all possible cases in the  when expression">Exhaustive when statements</a>
+            <a href="whatsnew16.md#stable-instantiation-of-annotation-classes" description="Allows calling constructors of annotation classes in arbitrary code to obtain an instance of a particular annotation class">Instantiation of annotation classes</a>
+        </highlighted-group>
+        <main-group>
+            <title>Try first and leave feedback</title>
+            <a href="whatsnew16.md#preview-of-the-new-memory-manager" description="Easier object sharing between threads and safe leak-free concurrent programming primitives">New Kotlin/Native memory manager (Experimental)</a>
+            <a href="whatsnew16.md#unified-compiler-plugin-abi-with-jvm-and-js-ir-backends" description="Same compiler plugin artifacts for Native and other supported platforms">Common IR compiler plugin ABI for Kotlin/Native (Experimental)</a>
+            <a href="whatsnew16.md#kover-a-code-coverage-tool-for-kotlin" description="A new code coverage tool for Kotlin">The Kover Gradle plugin (Experimental)</a>
+        </main-group>
+</section-starting-page>
 
 ## Language
 
